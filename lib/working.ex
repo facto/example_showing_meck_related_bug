@@ -1,6 +1,6 @@
-defmodule Example do
+defmodule Working do
   def some_func do
-    another_func
+    __MODULE__.another_func
   end
 
   def another_func do
